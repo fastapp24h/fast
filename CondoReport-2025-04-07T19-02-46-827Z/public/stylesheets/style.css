@@ -1,0 +1,18 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 50px;
+}
+
+#data-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+#data-container > div {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+Tutto dovrebbe funzionare correttamente. Fammi sapere se hai bisogno di ulteriori modifiche o chiarimenti.
